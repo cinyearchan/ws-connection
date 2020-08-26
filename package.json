@@ -1,0 +1,37 @@
+{
+  "name": "ws-connection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cinyearchan/ws-connection.git"
+  },
+  "keywords": [],
+  "author": "cinyearchan",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "lib"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "conventional-changelog-cli": "^2.1.0",
+    "eslint": "^7.7.0",
+    "phantomjs-prebuilt": "^2.1.16",
+    "pre-commit": "^1.2.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
+}
