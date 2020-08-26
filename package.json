@@ -1,5 +1,5 @@
 {
-  "name": "ws-connection",
+  "name": "websocket-connection",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -11,7 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/cinyearchan/ws-connection.git"
   },
-  "keywords": [],
+  "keywords": [
+    "WebSocket"
+  ],
   "author": "cinyearchan",
   "license": "MIT",
   "files": [
